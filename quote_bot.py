@@ -323,8 +323,6 @@ def quote_apropos(flag, arg):
 def listen():
   while 1:
 
-    time.sleep(1)
-
     ircmsg = ircsock.recv(2048)
     ircmsg = ircmsg.strip('\n\r')
 
